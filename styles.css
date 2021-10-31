@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: garamond, serif;
+  }
+  
+  h1 {
+    font-family: garamond, serif;
+    font-weight: 900;
+    color: grey;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  .colors, .fonts, .textstyle{
+    background-color: white;
+    padding: 1%;
+    margin: 2% 0;
+  }
+  
+  .colors h2, .fonts h2, .textstyle h2 {
+    font-family: garamond;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    padding: 15px; 
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  
+  .colors .innercontent .color {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    margin: 2px;
+    color: white;
+  }
+  
+  #red {
+    background-color: darkred;
+  }
+  
+  #burly {
+    background-color: burlywood;
+  }
+  
+  #golden {
+    background-color: goldenrod;
+  }
+  
+  #blue {
+    background-color: cornflowerblue;
+  }
+  
+  #midblue {
+    background-color: midnightblue;
+  }
+  
+  #salmon {
+    background-color: darksalmon;
+  }
+  
+  .fonts .innercontent li {
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .textstyle .innercontent li {
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .bold{
+    font-weight: bold;
+  }
+  
+  .italic{
+    font-style: italic;
+  }
+  
+  .underline{
+    text-decoration: underline;
+  }
+  
+  .serif{
+    font-family: serif;
+  }
+  
+  .montserrat {
+    font-family: montserrat;
+  }
+  
+  .poppins {
+    font-family: poppins;
+  }
+  
+  .raleway {
+    font-family: raleway;
+  }
+  
+  .hex{
+    color: black;
+  }
+  
+  .color p {
+    font-family: poppins;
+  }
+  
